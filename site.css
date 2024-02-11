@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all-content {
+    background-color: #3e92b2;
+  
+
+}
+
+html ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html ::-webkit-scrollbar-thumb {
+    background: #e7f3fc;
+    border-radius: 10px;
+}
+
+#navbar {
+    background-color: white;
+
+   
+}
+
+#logo {
+
+    width: 300px;
+    margin-left: 100px;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+
+}
+.nav-item{
+    display: flex;
+}
+
+.nav-item .nav-link {
+    color: #7ed2f3;
+    margin-left: 20px;
+    justify-content: space-around;
+    font-weight: bold;
+    transition: 0, 5s;
+    
+    
+ 
+}
+
+.nav-item .nav-link:hover {
+  color:  #babcbd;
+    border-radius: 5px;
+    background-image: url(rjel.PNG);
+    height: 70px;
+    width: 100px;
+}
+
+
+
+
+#home {
+    width: 100%;
+    height: 90vh;
+    background-image: url(cat\ blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+
+p {
+    font-size: 50px;
+    color: #1f617a;
+    padding-top: 200px;
+    margin-left: 70px;
+}
+
+#btn {
+    width: 150px;
+    height: 36px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background: #ecf1f3;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0, 5s ease;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: #3e92b2;
+    color: #babcbd;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #7ed2f3;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.heading span {
+    color: #1f617a;
+}
+
+
+#button {
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 3px solid #1f617a;
+    color: #1f617a;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0, 5s;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #1f617a;
+    color: #77cbec;
+}
+
+h4 {
+
+    color: #babcbd;
+    font-size: 50px;
+}
+
+.p1 {
+    color: #1f617a;
+    text-align: center;
+    font-size: 20px;
+
+}
+.box-container{
+display: flex;
+justify-content: space-around;
+}
+.content{
+    display: flex;
+justify-content: space-around;
+}
+    .box{
+    position: relative;
+    overflow: hidden;
+}
+     .image{
+    height: 40rem;
+    width: 100rem;
+    overflow: hidden;
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+   
+}
+
+    
+
+.heading1 span {
+    color: #1f617a;
+}
+.icons{
+  position: absolute;
+   left: 10px;
+   margin-left: 250px;
+}
+.heading3 span {
+    color: #1f617a;
+}
+
+.heading3 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #7ed2f3;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+#ourproducts{
+    width: 100%;
+    margin-top: 60px;
+}
+.heading3{
+    text-align: center;
+    font-size: 30px;
+    color:#3e92b2;
+    font-weight: bold;
+    border-bottom: 2px solid #3e92b2;
+    
+}
+#container2{
+    margin-top: 50px;
+}
+#ourproducts .card{
+    box-shadow: #77cbec 0px 8px 24px;
+}
+.star i{
+    color: #1f617a;
+}
+#ourproducts h3{
+    text-align: center;
+    color: #83c4e7;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#ourproducts p{
+    font-size: 16px;
+    color: #1f617a;
+    padding-top: 20px;
+}
+#ourproducts p span{
+    float: right;
+    cursor: pointer;
+}
+.heading4{
+    text-align: center;
+    font-size: 30px;
+    color:#3e92b2;
+    font-weight: bold;
+    border-bottom: 2px solid #3e92b2;
+    
+}
+.heading4 span {
+    color: #1f617a;
+}
+#animals h2 span{
+    float: right;
+    cursor: pointer;
+
+}
+#animals .card{
+    box-shadow: #555c5f 0px 8px 24px;
+}
+.box{
+    background: #b6d8ea;
+    padding: 50px;
+    text-align: center;
+    border-radius: 200px;
+    color: #1f617a;
+    width: 400px;
+    height: 400px;
+    background-image: url(rjel.PNG);
+   
+}
+
+#button{
+
+        border-radius: 30px;
+      
+        background-color:  #f7f8f8;
+    
+        
+        font-weight: 700;
+   
+}
+#contact{
+    width: 100px;
+    height: 30px;
+    padding-top: 70px;
+    margin-left: 80px;
+    
+}
+#contact .container{
+ 
+    height: 90vh;
+    background: linear-gradient(100deg,rgb(250, 248, 248) 80%,#b3d6e8 20%);
+
+}
+.heading7{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+}
